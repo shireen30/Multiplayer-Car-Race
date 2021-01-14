@@ -21,7 +21,7 @@ function preload(){
   car4_img = loadImage("images/car4.png");
   ground = loadImage("images/ground.png");
   trophy=loadImage("images/trophy.png");
-  backgrnd=loadImage("/images/back.jpg");
+  backgrnd=loadImage("images/back.jpg");
 }
 
 function setup(){
