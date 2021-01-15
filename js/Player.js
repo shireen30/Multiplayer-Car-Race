@@ -40,14 +40,15 @@ class Player {
       
     });
   }
-updateRank(plyrRank)
+  
+/*updateRank(plyrRank)
 {
   var playerIndex = "players/player" + this.index;
   database.ref(playerIndex).update({
    rank:plyrRank
     
   });
-}
+}*/
   static getPlayerInfo(){
     var playerInfoRef = database.ref('players');
     playerInfoRef.on("value",(data)=>{
